@@ -18,3 +18,10 @@ dengan <b>implementation 'com.github.aliendroid-kim:AppodealSDK:Bimasakti-01'</b
 
 lalu tambahan Maven di Gradle Project
  <b>maven { url "https://artifactory.appodeal.com/appodeal"} </>
+ 
+ <p><strong>D</strong><strong>. Plus Minus Single dan Multy SDK Ads</strong><br />1. Multy Ads memiliki ukuran file 10-15mb dengan sistem switch, backup, open bidding dan mediasi, sehingga ukuran file akan menjadi lebih besar.<br />2. Single Ads memiliki ukuran file 500kb-2mb tergantung SDK yang dipilih, kekurangan dari single SDK tidak bisa melakukan backup maupun switch sehingga setiap akan mengganti ads harus melakukan update aplikasi <br />3. Untuk mengganti setiap SDK silahkan buka build.gradle dan ganti SDK <strong>AlienMultyAds, </strong>sesuaikan dengan Iklan yang dipilih</p>
+<p><img src="https://aliendro.id/uploads/blog/202210/img_635264a9b00592-48631043-54973966.jpg" alt="" width="793" height="538" /></p>
+<p>4. Pada beberapa Ads, membutuhkan maven untuk melakukan konfigurasi sdk, Maven terletak di settings.gradle atau build.gradle project</p>
+<p><img src="https://aliendro.id/uploads/blog/202210/img_6352656b2fac19-97214146-62944342.jpg" alt="" width="794" height="401" /></p>
+<p><img src="https://aliendro.id/uploads/blog/202210/img_6352659840bba4-34791743-27851708.jpg" alt="" width="801" height="482" /></p>
+<p>5. Jika proses penggantian gagal silahkan cek kembali bagian apa saja yang harus di tambah atau lakukan <strong>file-invalidate</strong></p>
