@@ -35,7 +35,7 @@ public class AliendroidIntertitial {
     public  static int counter=0;
     public static OnLoadInterstitialAdmob onLoadInterstitialAdmob;
     public static OnShowInterstitialAdmob onShowInterstitialAdmob;
-
+    public static boolean SHOW_ALIEN_VIEW=false;
     public static OnShowInterstitialGoogle onShowInterstitialGoogle;
     public static OnLoadInterstitialGoogle onLoadInterstitialGoogle;
 
