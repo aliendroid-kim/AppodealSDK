@@ -32,12 +32,20 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.0'
     implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
     implementation "androidx.multidex:multidex:2.0.1"
-    implementation ('com.appodeal.ads:sdk:3.0.1.+') {
-        exclude group: 'com.appodeal.ads.sdk.services', module: 'adjust'
-        exclude group: 'com.appodeal.ads.sdk.services', module: 'appsflyer'
-        exclude group: 'com.appodeal.ads.sdk.services', module: 'firebase'
-        exclude group: 'com.appodeal.ads.sdk.services', module: 'facebook_analytics'
-    }
+    implementation 'com.appodeal.ads.sdk:core:3.0.1'
+    implementation 'com.appodeal.ads.sdk.networks:adcolony:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:applovin:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:appodeal:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:bidmachine:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:admob:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:facebook:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:mraid:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:nast:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.services:sentry_analytics:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.services:stack_analytics:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:unity_ads:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:vast:3.0.1.0'
+    implementation 'com.appodeal.ads.sdk.networks:ironsource:3.0.1.0'
     implementation 'com.flurry.android:analytics:14.0.0'
 
     //implementation 'com.squareup.picasso:picasso:2.71828'
