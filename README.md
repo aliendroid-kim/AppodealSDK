@@ -19,7 +19,7 @@ dengan <b>implementation 'com.github.aliendroid-kim:AppodealSDK:Bimasakti-01'</b
 lalu tambahan Maven di Gradle Project
  <b>maven { url "https://artifactory.appodeal.com/appodeal"} </b>
  
-<br>D. Pengaturan Iklan</b>
+<b>D. Pengaturan Iklan</b>
 1. Iklan di sematkan pada SELECT_MAIN_ADS ="ADMOB"
 2. SWITCH_OPEN_ADS diisi angka 2 (non open ads Admob), jika diisi 1 maka aplikasi akan berhenti di halaman awal
 3. Masukan APP ID Appodeal di bagian INITIALIZE_MAIN_ADS dan INITIALIZE_BACKUP_ADS 
